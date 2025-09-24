@@ -1,0 +1,33 @@
+/*            ___     ___                           /// */
+/*           /   \,,,/   \                            */
+/*    ,-----(      . .    )   _______     ___
+/*   /        \__      __/   ( GIOME )   / ❜_❮～        */
+/*  /⎪           (\   ⎪(     <------  __/ /                 */
+/* ^  \    ____   /\  ⎪           \\ (_____ )_          */
+/* ////⎪___⎪//⎪___⎪/''/////////////\(_______ __)/////// */
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: white;
+}
+
+:root{
+ fluide time skil
+}
+
+p {line-height: 1.4;}
+
+/* Interlettrage */
+
+p { letter-spacing: 0.02em;}
+h1 { letter-spacing: -0.01em;}
+
+/* couleur */
+
+:root {
+	--jazz-bleu: 
+	--jazz-bleu-dark: 
+}
+body { color: var(--jazz-bleu-dark);
+}
