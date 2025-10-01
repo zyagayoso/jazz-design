@@ -12,11 +12,19 @@ body {
 	background-color: white;
 }
 
-:root{
- fluide time skil
+:root{ 
+  --size-sm: clamp(0.83rem, 0.44vw + 0.72rem, 1rem);
+  --size-base: clamp(1rem, 0.53vw + 0.87rem, 1.2rem);
+  --size-md: clamp(1.2rem, 0.64vw + 1.04rem, 1.44rem);
+  --size-lg: clamp(1.44rem, 0.77vw + 1.25rem, 1.73rem);
+  --size-xl: clamp(1.73rem, 0.92vw + 1.5rem, 2.07rem);
+  --size-xxl: clamp(2.07rem, 1.11vw + 1.8rem, 2.49rem);
+  --size-xxxl: clamp(2.49rem, 1.33vw + 2.16rem, 2.99rem);
 }
 
-p {line-height: 1.4;}
+.xxxl{ font-size: var(--size-xxxl);}
+
+p { line-height: 1,4;b }
 
 /* Interlettrage */
 
@@ -31,3 +39,7 @@ h1 { letter-spacing: -0.01em;}
 }
 body { color: var(--jazz-bleu-dark);
 }
+/* Mise en page */
+img {max-width: 100%; }
+
+#Affiche { height: 300px;}
