@@ -34,8 +34,8 @@ h1 { letter-spacing: -0.01em;}
 /* couleur */
 
 :root {
-	--jazz-bleu: 
-	--jazz-bleu-dark: 
+	--jazz-bleu: lab(35.77% 61.08 -95.32 / 0);
+	--jazz-bleu-dark: rgb(249, 71, 44);
 }
 body { color: var(--jazz-bleu-dark);
 }
