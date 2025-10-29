@@ -21,7 +21,12 @@ body {
   --size-xxl: clamp(2.07rem, 1.11vw + 1.8rem, 2.49rem);
   --size-xxxl: clamp(2.49rem, 1.33vw + 2.16rem, 2.99rem);
 }
-
+.sm{ font-size: var(--size-sm);}
+.base{ font-size: var(--size-base);}
+.md{ font-size: var(--size-md);}
+.lg{ font-size: var(--size-lg);}
+.xl{ font-size: var(--size-xl);}
+.xxl{ font-size: var(--size-xxl);}
 .xxxl{ font-size: var(--size-xxxl);}
 
 p { line-height: 1,4;b }
@@ -34,12 +39,34 @@ h1 { letter-spacing: -0.01em;}
 /* couleur */
 
 :root {
-	--jazz-bleu: lab(35.77% 61.08 -95.32 / 0);
-	--jazz-bleu-dark: rgb(249, 71, 44);
+	--jazz-bleu: rgb(33, 67, 145);
+	--jazz-orange: rgb(235, 88, 71);
 }
-body { color: var(--jazz-bleu-dark);
+body { color: var(--jazz-orange);
 }
 /* Mise en page */
 img {max-width: 100%; }
 
 #Affiche { height: 300px;}
+
+
+.couleurs{
+  display: flex;
+}
+.orange{
+  background-color:var(--jazz-orange);
+	width: 7rem;
+	aspect-ratio: 1;
+	color: white;
+  margin-left: 10px;
+}
+
+.bleu{
+  background-color:var(--jazz-bleu);
+	width: 7rem;
+	aspect-ratio: 1;
+	color: white;
+}
+
+
+
